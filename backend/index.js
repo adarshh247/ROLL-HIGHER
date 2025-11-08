@@ -23,7 +23,7 @@ app.use(express.static(path.resolve("./Git_Projects/"))); // To get absolute pat
 
 // Serve the index.html file
 app.get("/", (req, res) => {
-  res.sendFile("/Git_Projects/Project_3/frontend/roll_updat.html");
+  res.sendFile("/Git_Projects/Project_3/backend/frontend/roll_updat.html");
 });
 
 /*
